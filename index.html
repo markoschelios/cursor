@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Blue Page with Buttons</title>
+    <style>
+      body {
+        margin: 0;
+        background-color: #1e90ff; /* blue background */
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+      }
+
+      .top-bar {
+        padding: 16px;
+      }
+
+      .top-bar button {
+        margin-right: 8px;
+        padding: 8px 16px;
+        border-radius: 4px;
+        border: none;
+        cursor: pointer;
+        font-size: 14px;
+      }
+
+      .button-green {
+        background-color: #2ecc71;
+        color: #ffffff;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="top-bar">
+      <button id="button1">button1</button>
+      <button id="button2">button2</button>
+      <button id="button3" class="button-green" onclick="location.href='green.html'">
+        button3
+      </button>
+    </div>
+  </body>
+</html>
+
